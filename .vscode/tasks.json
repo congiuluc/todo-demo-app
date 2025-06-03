@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Todo API",
+			"type": "shell",
+			"command": "dotnet run --project ${workspaceFolder}/src/TodoApi/TodoApi.csproj",
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}
