@@ -78,3 +78,6 @@ app.MapDelete("/todos/{id}", (int id) =>
 .WithOpenApi();
 
 app.Run();
+
+// Make the implicit Program class accessible to the test project
+public partial class Program { }
